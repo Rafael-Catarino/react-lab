@@ -1,0 +1,21 @@
+.containerFinancial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.financialInstitution {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--neutral-text);
+}
+
+.accountBalance {
+  color: var(--neutral-text);
+  text-align: left;
+  width: 120px;
+}

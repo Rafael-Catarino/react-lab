@@ -1,0 +1,45 @@
+.card {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+}
+
+.card p,
+.card h4 {
+  margin: 0px;
+}
+
+.card .body {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 16px;
+}
+
+.card .tag {
+  background-color: #4a4949;
+  border-radius: 4px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 120%;
+  letter-spacing: 10%;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.card .date {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+}
+
+.card .title {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
