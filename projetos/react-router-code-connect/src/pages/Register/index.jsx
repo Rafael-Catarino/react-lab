@@ -65,7 +65,7 @@ export const Register = () => {
             <Checkbox label="Lembrar-me" />
           </Fieldset>
           <Button type="submit">
-            Login <IconArrowFoward />
+            Cadastrar-se <IconArrowFoward />
           </Button>
         </Form>
         <div>
