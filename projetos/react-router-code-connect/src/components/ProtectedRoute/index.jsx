@@ -3,7 +3,7 @@ import { useAuth } from "../../hooks/useAuth";
 import { Spinner } from "../Spinner";
 import { useNavigate } from "react-router";
 
-export const ProtectedRoute = ({ Children }) => {
+export const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, isLoading } = useAuth();
 
   const navigate = useNavigate();
@@ -22,5 +22,5 @@ export const ProtectedRoute = ({ Children }) => {
   if (!isAuthenticated) {
     return null;
   }
-  return Children;
+  return children;
 };
